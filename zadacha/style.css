@@ -1,0 +1,81 @@
+/* slagame font mojesh da si izberesh drugi ot google fonts */
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins&family=Roboto:ital@1&display=swap');
+
+/* tqloto, centrirame teksta, slagame background i slagame font a */
+body{
+    text-align: center;
+    background: #32a852;
+    font-family: 'Poppins', sans-serif;
+}
+
+/* osnovniq ni konteiner */
+article{
+    /* otstuplenie otstrani */
+    margin-left: 10rem; 
+    margin-right: 10rem;
+/* slagame border i zaoblenostta i */
+    border: 1px solid #000;
+    border-radius: 20px;
+/* razmer na shrifta i go pravim bold */
+    font-size: 1.5rem;
+    font-weight: 900;
+/* cvqt na teksta i background */
+    color: #000;
+    background: #3ea832;
+    box-shadow: 5px 5px #000;
+}
+
+/* pri minavane s mishkata vurhy article se promenqt tezi neshta */
+article:hover{
+    box-shadow:5px 5px 5px 5px #000;
+    margin-left: 13rem;
+    margin-right: 13rem;
+    border: none;
+}
+/* zaglavieto */
+header{
+    background: #000;
+    color: #3ea832;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    padding: 10px;
+}
+/* slagame maksimalna duljina na snimkite i zaoblenost */
+img{
+    max-width: 400px;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+img:hover{
+    width: 130%;
+    border-radius: 20px;
+}
+
+p{
+    padding: 10px;
+}
+/* linkovete */
+ul a{
+    text-decoration: none;
+    color: #000;
+}
+/* pri minavane s mishkata stavat po-golemi */
+ul a:hover{
+    font-size: 2rem;
+}
+
+svg, audio, video{
+    border-radius: 5px;
+    padding: 10px;
+}
+
+footer{
+    background: #000;
+    color: #3ea832;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+
+
